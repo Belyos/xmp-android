@@ -34,7 +34,7 @@ android {
 
         // ModArchive API Key
         // Must be in your global gradle.properties. ex: C:\Users\<name>\.gradle
-        val apiKey = project.property("modArchiveApiKey") as String
+        val apiKey = "none"
         buildConfigField("String", "API_KEY", apiKey)
     }
 
